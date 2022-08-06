@@ -1,0 +1,4 @@
+[submodule "my-site/public"]
+	path = my-site/public
+	url = https://github.com/Parthdsi/Parthdsi.github.io.git
+	branch = main
