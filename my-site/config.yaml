@@ -107,7 +107,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: https://drive.google.com/file/d/1rhqAkSUKKrfuLJUt88qWzsO1b3fHaciM/view?usp=sharing
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -246,7 +246,10 @@ params:
     enable: true
     items:
       - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        content: •	Operated in a team of 5 to build a time tracking tool using Excel, VBA, and Macros to automate schedule creation
+•	Utilized engineering design process for research and testing, resulting in an increase of time efficiency by 35%
+•	Developed 5 status reports, tested prototypes, and updated activity logs
+
         image: /images/projects/profile.png
         featured:
           name: Demo
