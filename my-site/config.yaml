@@ -120,7 +120,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/themes/hugo-profile/images/screenshot.png"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
@@ -241,58 +241,7 @@ params:
         content: Contributed to a open source project.
         url: https://example.com
 
-  # projects
-  projects:
-    enable: true
-    items:
-      - title: Hugo Profile
-        content: •	Operated in a team of 5 to build a time tracking tool using Excel, VBA, and Macros to automate schedule creation
-•	Utilized engineering design process for research and testing, resulting in an increase of time efficiency by 35%
-•	Developed 5 status reports, tested prototypes, and updated activity logs
-
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
-
+  
   #Contact
   contact:
     enable: true
@@ -315,42 +264,27 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+      - title: "Bachelor of Applied Sciences in Management Engineering"
+        school: 
+          name: "University of Waterloo"
+          url: "https://uwaterloo.ca"
+        date: "2021 - Present"
+        GPA: "3.7 out of 4.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+            - Intramural Sports
+            - Mentorship for Incoming First-Year Students
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Westwood Community High School"
+          url: "https://westwood.fmpsdschools.ca"
+        GPA: "4.0 out of 4.0"
+        content: |-
+          Extracurricular Activities
+            - VEX Robotics Team, Tournament Champions
+            - Student Council, Advocate for Student Needs
+            - Green Initiative, Voted 2nd Greenest School in Canada
+            - Volleyball and Basketball Starter
 
   # Achievements
   achievements:
@@ -374,9 +308,9 @@ params:
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Automated Scheduling
+        content: Operated in a team of 5 to build a time tracking tool using Excel, VBA, and Macros to automate schedule creation. Utilized engineering design process for research and testing, resulting in an increase of time efficiency by 35%. Developed 5 status reports, tested prototypes, and updated activity logs.
+        image: /public/fav.png
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
@@ -392,8 +326,8 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Finance Manager
+        content: Created a financial tracker utilizing Excel, VBA, and Pivot Tables to track personal finances and reduce monthly costs. Reduced manual input time by 50% by automating cash inflow/outflow. Evaluated data sets through pivot tables and scatter plots to visualize and summarize key metrics. Analyzed financial conditions through ratio analysis and provided solutions to improve finances.
         image: /images/projects/converter.jpg
         featured:
           name: Demo
@@ -405,8 +339,8 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: Investment Portfolio Analysis
+        content: Produced 10 informational deliverables with data charts, tables, and graphs to display research on stocks. Conducted stock index analysis using Yahoo Finance for each selection, resulting in a 20% return on investment. Investigated linear regression models, 8 financial ratios, and moving averages to select 6 stocks for the client.
         image: /images/projects/profile2.jpg
         featured:
           name: Demo V2
