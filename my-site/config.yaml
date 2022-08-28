@@ -13,18 +13,18 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+ # main:
+   # - identifier: blog
+    #  name: Blog
+     # title: Blog posts
+      #url: /blogs
+      #weight: 1
     
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+   # - identifier: gallery
+    #  name: Gallery
+     # title: Blog posts
+      #url: /gallery
+      #weight: 2
 
     #Dropdown menu
     # - identifier: dropdown
@@ -101,9 +101,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Parth."
-    subtitle: "I like to try new things"
-    content: "This website comes as direct result of my passion for trying new things. And now that you are here, please go through the full functionality."
-    image: /images/hero.svg
+    subtitle: "...but I like to call myself a Jack of all Trades"
+    content: "The content of this website will take you through my experience, and hopefully help you learn a little more about me."
+    image: /me.png
     button:
       enable: true
       name: "Resume"
@@ -111,22 +111,24 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/Parthdsi
         - icon: fab fa-twitter
-          url: https://example.com
+          url: https://twitter.com/parthdsi
 
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/themes/hugo-profile/images/screenshot.png"
+    image: /me3.png
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Hey! I’m Parth, a Jack of all Trades. My passion for not having one set passion is what has defined most of my life today. Growing up I loved sports and weight lifting, but at the same time I felt as strong an affection for both music and the fine arts. Two starkly different things. To top it all off, I was someone who loved learning about history and my ability to suck in information led me to excel at academics as well. The common trend here seems to be that I like a lot of different things. 
+      
+      In fact, this trend is what led me to pursue Management Engineering at the University of Waterloo. As a Management Engineer, I am truly able to live up to the term: a Jack of all Trades. This is because as Management Engineers we are taught and able to excel in vast engineering disciplines. Whether that include circuitry and hardware, process optimization, computer programming, or even economics. 
+      
+      Unfortunately, I’ve only allowed myself this much space to write about me, so feel free to get in contact with me so we can chat! 
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
@@ -288,7 +290,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -310,48 +312,48 @@ params:
     items:
       - title: Automated Scheduling
         content: Operated in a team of 5 to build a time tracking tool using Excel, VBA, and Macros to automate schedule creation. Utilized engineering design process for research and testing, resulting in an increase of time efficiency by 35%. Developed 5 status reports, tested prototypes, and updated activity logs.
-        image: /public/fav.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+        image: /Scheduling.png
+       # featured:
+        #  name: Demo
+         # link: https://hugo-profile.netlify.app
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+       # links:
+        #  - icon: fa fa-envelope
+         #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fab fa-github
+           # url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+           # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Finance Manager
         content: Created a financial tracker utilizing Excel, VBA, and Pivot Tables to track personal finances and reduce monthly costs. Reduced manual input time by 50% by automating cash inflow/outflow. Evaluated data sets through pivot tables and scatter plots to visualize and summarize key metrics. Analyzed financial conditions through ratio analysis and provided solutions to improve finances.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+        image: /PersonalFin.png
+       # featured:
+        #  name: Demo
+         # link: https://django-converter.herokuapp.com
         # badges:
         #   - "Django"
         #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+       # links:
+        #  - icon: fab fa-github
+         #   url: https://github.com/gurusabarish/converter
 
       - title: Investment Portfolio Analysis
         content: Produced 10 informational deliverables with data charts, tables, and graphs to display research on stocks. Conducted stock index analysis using Yahoo Finance for each selection, resulting in a 20% return on investment. Investigated linear regression models, 8 financial ratios, and moving averages to select 6 stocks for the client.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+        image: /Stock.jpg
+        #featured:
+         # name: Demo V2
+          #link: https://hugo-profile-2.netlify.app
+        badges:
+           #- "Hugo"
+           #- "Bootstrap"
+           #- "Javascript"
+       # links:
+        #  - icon: fab fa-github
+         #   url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
@@ -361,11 +363,11 @@ params:
     btnName: Let's Get in Touch!
 
   footer:
-    # recentPosts: false
+    recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Parthdsi
+      linkedin: https://www.linkedin.com/in/parthdsi/
+      twitter: https://twitter.com/parthdsi
+      instagram: https://instagram.com/parthdsi
+      facebook: https://www.facebook.com/parthdsi
 
