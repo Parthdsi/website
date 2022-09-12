@@ -107,7 +107,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: https://drive.google.com/file/d/1rhqAkSUKKrfuLJUt88qWzsO1b3fHaciM/view?usp=sharing
+      url: https://drive.google.com/file/d/1L4ssDJlH1FIMUOTh92PKFjWDuaxD_ei_/view?usp=sharing
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -341,8 +341,8 @@ params:
         #  - icon: fab fa-github
          #   url: https://github.com/gurusabarish/converter
 
-      - title: Investment Portfolio Analysis
-        content: Produced 10 informational deliverables with data charts, tables, and graphs to display research on stocks. Conducted stock index analysis using Yahoo Finance for each selection, resulting in a 20% return on investment. Investigated linear regression models, 8 financial ratios, and moving averages to select 6 stocks for the client.
+      - title: Investment Risk Analyzer
+        content: Programmed a risk analysis tool which calculates moving averages for 6000+ public stocks and compares them to average gains to judge investment risk. Built in Python using NumPy and Pandas along with the Yahoo Finance library
         image: /Stock.jpg
         #featured:
          # name: Demo V2
