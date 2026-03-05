@@ -4,7 +4,7 @@ const projects = [
     description: "A smart expense-splitting app that makes splitting bills with friends and roommates effortless. Built with a focus on seamless UX—receipt scanning, automatic item assignment, and one-tap settlement. Designed to eliminate the friction of \"who owes what\" in group settings.",
     badges: ['Product', 'Mobile'],
     url: null,
-    video: '/split-demo.mp4', // Add your video file to the public/ folder
+    video: 'https://drive.google.com/file/d/1kQKfsFwJOwltJqIlpgBlQDtOMztu4uAT/preview',
   },
   {
     title: 'Automated Scheduling',
@@ -39,7 +39,11 @@ export default function Projects() {
             <div key={title} className="project-card">
               {video && (
                 <div className="project-video">
-                  <video src={video} controls playsInline muted loop />
+                  {video.includes('drive.google.com') ? (
+                    <iframe src={video} title={`${title} demo`} allow="autoplay" allowFullScreen />
+                  ) : (
+                    <video src={video} controls playsInline muted loop />
+                  )}
                 </div>
               )}
               {badges.length > 0 && (

@@ -259,11 +259,17 @@
   background: #000;
 }
 
-.project-video video {
+.project-video video,
+.project-video iframe {
   width: 100%;
   display: block;
   max-height: 320px;
   object-fit: cover;
+}
+
+.project-video iframe {
+  aspect-ratio: 16 / 9;
+  border: none;
 }
 
 .project-badges {
